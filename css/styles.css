@@ -1,0 +1,552 @@
+body{
+ background="fundosite.jpg";
+}
+
+#nave{
+	color:white;
+	width: 100%;
+	height: 10%;	
+	float:center;
+	border:2% black;
+	
+}
+#nave ul li {display: inline;}
+#nave ul a{
+	padding: 18px 28px;
+	margin: 2px 2px black;
+	display: inline-block;
+	background:black;
+	color: white;
+	text-decoration: none;
+	border: 5% solid black;
+}
+#nave ul a:hover{
+	background: white;
+	color: black;
+	border:	3px solid black;
+
+}
+#externo{
+	   float:center;
+        backgroud:withe;
+        border:2px;
+        color:black;
+}
+.slider:nth-of-type(1):checked ~ .slide1:nth-of-type(1),
+.slider:nth-of-type(2):checked ~ .slide1:nth-of-type(2),
+.slider:nth-of-type(3):checked ~ .slide1:nth-of-type(3),
+.slider:nth-of-type(4):checked ~ .slide1:nth-of-type(4),
+.slider:nth-of-type(5):checked ~ .slide1:nth-of-type(5),
+.slider:nth-of-type(6):checked ~ .slide1:nth-of-type(6) {
+
+  display: inline-block;
+
+}
+
+ input[type=radio] {
+
+  display: none;
+  overflow: hidden;
+
+}
+
+
+ul { text-align: center; }
+
+ 
+li {
+  border: 3px solid #333;
+  list-style: circle;
+  display: none;
+}
+img {
+  width: 60%;
+  height: 70%;
+  position: relative;
+}
+
+h2 {
+
+  position: absolute;
+  top: 250px;
+  color: #fff;
+  padding: 20px;
+  background-color: #000;
+}
+
+p {
+
+  font-size: x-large;
+  padding-left: 25%;
+
+}
+label {
+  background: white;
+  padding: 10px;
+  border-radius: 20%;
+  display: inline-block;
+  color:red;
+  
+}
+.selector { 
+text-align: center; 
+
+}
+.rodapeum{
+	width:6%;
+	height:7%;
+   float:left;
+  position:relative;
+  margin-left:6%;
+  margin-bottom:5%;
+
+	
+	
+}
+.rodapedois{
+width:6%;
+height:7%;
+float:left;
+position:relative;
+margin-left:0.5%;
+ margin-bottom:5%;
+
+	
+	
+	
+}
+.rodapetres{
+	width:6%;
+	height:7%;
+   float:left;
+   position:relative;
+margin-left:0.5%;
+  margin-bottom:5%;
+	
+	
+}
+.rodapequatro{
+	width:6%;
+	height:7%;
+	float:left;
+position:relative;
+margin-left:0.5%;
+  margin-bottom:5%;
+
+	
+}
+.rodapecinco{
+	width:6%;
+	height:7%;
+	float:left;
+position:relative;
+margin-left:0.5%;
+  margin-bottom:5%;
+}
+.esq{
+	float:right;
+}
+
+h1{
+	font-family: times;
+	font-size: 26px;
+	color: white;
+	text-align: center;
+}
+#esq{
+	background-color: yellow;
+	width: 30%;
+	height: 60%;
+	float: left;
+	border: 3px solid white;
+}
+#dir{
+	background-color: green;
+	width: 69%;
+	height: 60%;
+	float: right;
+	border: 3px solid white;
+}
+h1{
+	font-family: times;
+	font-size: 26px;
+	color: white;
+	text-align: center;
+}
+.um{
+width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+}
+.dois{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+}
+.tres{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+}
+.quatro{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+}
+.cinco{
+width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+}
+	
+.seis{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.sete{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.oito{
+width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.nove{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+}
+.dez{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.onze{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}.doze{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.treze{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.quatorze{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.quinze{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.dezeseis{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.dezesete{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.dezoito{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.fotosum{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+}
+.fotosdois{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+}
+.fotostres{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:1%;
+	color: white;
+}
+.fotosquatro{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+}
+.fotoscinco{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+}
+	
+.fotosseis{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.fotossete{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.fotosoito{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.fotosnove{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.fotosdez{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.fotosonze{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}.fotosdoze{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.fotostreze{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.fotosquatorze{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.fotosquinze{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.fotosdezeseis{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.fotosdezesete{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+.fotosquadezoito{
+	width:20%;
+	height:30%;
+	position:relative;
+	float:left;
+	margin-left:10%;
+	border:7%;
+	color: white;
+	
+}
+#texto{
+	width:90%;
+	background:white;
+	color:black;
+	height:115%;
+	margin-left:1%;
+	
+}
+ .google-maps {
+        position: relative;
+        padding-bottom: 75%; 
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+#contato{
+	width:98%;
+	background:white;
+	color:black;
+	height:20%;
+	margin-left:1%;
+}
